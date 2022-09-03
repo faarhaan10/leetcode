@@ -37,8 +37,11 @@ var lengthOfLastWord = function (s) {
     const sArr = strArr.filter(x => x.length !== 0);
     const lastStr = sArr[sArr.length - 1];
     return lastStr;
-    console.log(lastStr.length);
+
 };
+
+
 
 const str = "   fly me   to   the moon  ";
 lengthOfLastWord(str)
+
